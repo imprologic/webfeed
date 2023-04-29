@@ -1,6 +1,6 @@
 # WebFeed
 
-A dart package for parsing RSS and Atom feed.
+A dart package for parsing RSS and Atom feeds.
 
 This repository is a fork of https://github.com/witochandra/webfeed. 
 While the orginal repo is very nicely written, it hasn't been updated in 2 years and may be abandoned.
@@ -21,9 +21,13 @@ This fork aims to:
 
 ### Installing
 
-Add this line into your `pubspec.yaml`
+Add these lines into your `pubspec.yaml`
 ```
-webfeed: ^0.7.0
+  webfeed:
+    git:
+      url: https://github.com/imprologic/webfeed.git
+      ref: v0.9.0 
+
 ```
 
 Import the package into your dart code using:
