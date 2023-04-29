@@ -1,9 +1,11 @@
 # WebFeed
 
-[![Build Status](https://travis-ci.org/witochandra/webfeed.svg?branch=master)](https://travis-ci.org/witochandra/webfeed)
-[![Pub](https://img.shields.io/pub/v/webfeed.svg)](https://pub.dartlang.org/packages/webfeed)
-
 A dart package for parsing RSS and Atom feed.
+
+This repository is a fork of https://github.com/witochandra/webfeed
+
+This fork aims to fix issues related to the parsing of timezones, as well as add proper parsing
+of the `media:group` section of YouTube atom feeds (ex: thumbnails).
 
 ### Features
 
