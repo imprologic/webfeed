@@ -2,10 +2,12 @@
 
 A dart package for parsing RSS and Atom feed.
 
-This repository is a fork of https://github.com/witochandra/webfeed
+This repository is a fork of https://github.com/witochandra/webfeed. 
+While the orginal repo is very nicely written, it hasn't been updated in 2 years and may be abandoned.
 
-This fork aims to fix issues related to the parsing of timezones, as well as add proper parsing
-of the `media:group` section of YouTube atom feeds (ex: thumbnails).
+This fork aims to:
+1. Fix issues related to the parsing of timezones
+2. Add proper parsing of the `media:group` section of YouTube atom feeds (ex: thumbnails).
 
 ### Features
 
