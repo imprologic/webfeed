@@ -15,3 +15,6 @@ doc/api/
 .dart_tool
 
 .vscode/
+
+# MacOS Finder directory attributes
+.DS_Store
